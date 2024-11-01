@@ -60,6 +60,6 @@ public interface IVeiculo
 
 public void delegates Processar (int numero);
 
-// Nullabe types
+//Nullabe types
 int? idade = null;
 
