@@ -13,10 +13,18 @@
 
 
 //Estrutura repetição Do/While
-int numero = 0;
+// int numero = 0;
 
-do {
-    Console.WriteLine($"Número: {numero}");
-    numero++;
+// do {
+//     Console.WriteLine($"Número: {numero}");
+//     numero++;
 
-}while (numero <= 10);
+// }while (numero <= 10);
+
+
+// Estrutura de repetição For
+// O looping For
+// for (int i = 0 ; i <= 10 ; i ++)
+// {
+//     Console.WriteLine($"O valor de i: {i}");
+// }
