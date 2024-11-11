@@ -28,3 +28,11 @@
 // {
 //     Console.WriteLine($"O valor de i: {i}");
 // }
+
+
+// Estrutura de repetição Foreach
+string[] nomes = {"João", "Maria", "Sirlene", "Paulo"};
+foreach (string nome in nomes)
+{
+Console.WriteLine(nome);
+}
