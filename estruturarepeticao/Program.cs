@@ -154,6 +154,70 @@
 //     }
 // }
 
+//------------------------------------------------------------------------------------------------------------------------------------------------
 
- 
+ // 6. Solicite ao usuário que informe um número e, em seguida, conte quantos números pares e ímpares existem entre 1 e o número informado.
 
+
+// int par = 0;
+// int impar = 0;
+// Console.WriteLine("Informe o seu numero:");
+// int numero = Convert.ToInt32(Console.ReadLine());
+
+//  for (int i = 1; i <= numero; i++)
+//  {
+//     if (i % 2 == 0) // Verifica se o número é par
+//     {
+//         par++; // Adiciona o número par à variável soma
+//     }
+//     else
+//     {
+//         impar++;
+//     }
+// } 
+// Console.WriteLine($"existem {par} numeros pares e {impar} numeros impares dentro do seu numero.");
+
+//------------------------------------------------------------------------------------------------------------------------------------------------
+
+// 7. Crie um programa que leia dois números e execute as quatro operações básicas (soma, subtração, multiplicação e divisão), exibindo o resultado de cada uma.
+
+// Console.WriteLine("Insira o Primeiro Numero: ");
+// int numero1 = Convert.ToInt32(Console.ReadLine());
+// Console.WriteLine("Insira o Segundo Numero: ");
+// int numero2 = Convert.ToInt32(Console.ReadLine());
+
+// int soma = numero1 + numero2;
+// int subtracao = numero1 - numero2;
+// int multiplicacao = numero1 * numero2;
+
+// double divisao = numero2 != 0 ? numero1 / numero2 : 0;
+
+// Console.WriteLine($"A Soma de {numero1} e {numero2} é: {soma}");
+// Console.WriteLine($"A Subtração de {numero1} e {numero2} é: {subtracao}");
+// Console.WriteLine($"A Multiplicação de {numero1} e {numero2} é: {multiplicacao}");
+
+// if (numero2 != 0)
+// {
+//     Console.WriteLine($"A Divisão de {numero1} e {numero2} é: {divisao}");
+// }
+// else
+// {
+//     Console.WriteLine("Divisão por zero não é permitida.");
+// }
+
+//------------------------------------------------------------------------------------------------------------------------------------------------
+
+// 8. Solicite ao usuário um número e imprima a tabuada desse número de 1 a 10.
+
+// Console.WriteLine("Insira o numero para imprimir a tabuada:" );
+// int numero = Convert.ToInt32(Console.ReadLine());
+
+// Console.WriteLine($"Tabuada do {numero}:");
+
+// for (int i = 0; i <= 10; i++)
+// {
+//     int resultado = numero * i;
+//     Console.WriteLine($"{numero} x {i} = {resultado}");
+// }
+
+//------------------------------------------------------------------------------------------------------------------------------------------------
