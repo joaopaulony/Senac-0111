@@ -8,23 +8,23 @@
     "net7.0": []
   },
   "packageFolders": {
-    "C:\\Users\\SENAC\\.nuget\\packages\\": {},
+    "C:\\Users\\JyOr\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\SENAC\\Documents\\GitHub\\Senac-0111\\variaveis\\variaveis.csproj",
+      "projectUniqueName": "C:\\Users\\JyOr\\Documents\\GitHub\\Senac-0111\\variaveis\\variaveis.csproj",
       "projectName": "variaveis",
-      "projectPath": "C:\\Users\\SENAC\\Documents\\GitHub\\Senac-0111\\variaveis\\variaveis.csproj",
-      "packagesPath": "C:\\Users\\SENAC\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\SENAC\\Documents\\GitHub\\Senac-0111\\variaveis\\obj\\",
+      "projectPath": "C:\\Users\\JyOr\\Documents\\GitHub\\Senac-0111\\variaveis\\variaveis.csproj",
+      "packagesPath": "C:\\Users\\JyOr\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\JyOr\\Documents\\GitHub\\Senac-0111\\variaveis\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\SENAC\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\JyOr\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -46,6 +46,11 @@
         "warnAsError": [
           "NU1605"
         ]
+      },
+      "restoreAuditProperties": {
+        "enableAudit": "true",
+        "auditLevel": "low",
+        "auditMode": "direct"
       }
     },
     "frameworks": {
@@ -67,7 +72,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.403\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.403\\RuntimeIdentifierGraph.json"
       }
     }
   }

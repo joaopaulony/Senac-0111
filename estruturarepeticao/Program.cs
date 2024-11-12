@@ -44,83 +44,116 @@
 
 // 1. Crie um algoritmo que some todos os numeros pares de 1 a 100 e exiba o resultado no console.
 
-// int i = 0;
-// int soma;
+// int soma = 0;
 
-// while(i < 100)
+// for (int i = 1; i <= 100; i++)
 // {
-//     i++;
-
-// if(i %2 == 0)
-
-//     i + i = soma;
-//     Console.WriteLine(soma);
+//     if (i % 2 == 0) // Verifica se o número é par
+//     {
+//         soma += i; // Adiciona o número par à variável soma
+//     }
 // }
 
-// for (int i = 0 ; i <= 100 ; i ++)
-// {
-//     i + i = soma
-//     Console.WriteLine(soma);
-// }
+// Console.WriteLine($"A soma de todos os números pares de 1 a 100 é: {soma}");
+
+//------------------------------------------------------------------------------------------------------------------------------------------------
 
 // 2. Crie um algoritmo que faça uma contagem regressiva de 10 a 1 e exiba "decolar!" ao final. 
 
-Estrutura de repetição For
-for (int i = 10 ; i > -1 ; i --)
-{
-    Console.WriteLine(i);
-}
+// Estrutura de repetição For
+// for (int i = 10 ; i > -1 ; i--)
+// {
+//     Console.WriteLine(i);
+//     System.Threading.Thread.Sleep(1000); // Pausa de 1 segundo entre os números
+// }
 
-Console.WriteLine("Decolar!");
+// Console.WriteLine("Decolar!");
 
+//------------------------------------------------------------------------------------------------------------------------------------------------
 
 // 3. Crie um algoritmo que conte o numero de vogais (a, e, i, o, u) na palavra e exiba o resultado.
-//usar foreach
 
+// Solicita uma palavra ao usuário
+//  Console.Write("Digite uma palavra: ");
+// string palavra = Console.ReadLine();
+
+// // Inicializa a variável de contagem
+// int contadorVogais = 0;
+
+//  // Loop para percorrer cada caractere da palavra
+// foreach (char c in palavra.ToLower())  // Converte para minúsculo para facilitar a comparação
+// {
+//     // Verifica se o caractere é uma vogal
+//     if (c == 'a' || c == 'e' || c == 'i' || c == 'o' || c == 'u')
+//     {
+//                 contadorVogais++;
+//     }
+// }
+
+// // Exibe o número de vogais encontradas
+// Console.WriteLine($"A palavra '{palavra}' tem {contadorVogais} vogais.");
+
+//------------------------------------------------------------------------------------------------------------------------------------------------
 
 // 4. Crie um algoritmo que solicite uma palavra ou frase do usuário, verifique se é um palidromo, ou seja, se é igual de trás pra frente. 
 // exemplo: ana, radar, etc..
 
 
 
+// Solicita uma palavra ou frase ao usuário
+// Console.Write("Digite uma palavra ou frase: ");
+// string input = Console.ReadLine();
+
+// // Remove os espaços e converte para minúsculas para uma comparação mais fácil
+// string palavraLimpa = input.Replace(" ", "").ToLower();
+
+// // Cria uma versão invertida da palavra ou frase
+// string palavraInvertida = string.Join("", palavraLimpa.Reverse());
+
+// // Verifica se a palavra original (sem espaços) é igual à invertida
+// if (palavraLimpa == palavraInvertida)
+// {
+//     Console.WriteLine($"'{input}' é um palíndromo.");
+// }
+// else
+// {
+//             Console.WriteLine($"'{input}' não é um palíndromo.");
+// }
+    
+//------------------------------------------------------------------------------------------------------------------------------------------------
+
 // 5. Crie um algoritmo onde o computador escolhe um numero aleatorio entre 1 a 100 e o usuario deve adivinhar, após cada tentativa, 
 // o programa indica se o numero é maior ou menor.
 
+// // Gerar número aleatório
+// Random numeroAleatorio = new Random();
+// int numero = numeroAleatorio.Next(1, 101);
 
-//gerar numero aleatório
-Random numeroAleatorio = new Random();
-int numero = numeroAleatorio.Next(1, 101);
+// // Iniciar o jogo
+// Console.WriteLine("Tente adivinhar o número secreto entre 1 e 100!");
+// int tentativa = 0;
 
-//pegar primeiro numero do usuário
-Console.WriteLine("Escreva um numero:");
-int tentativa;
-Console.WriteLine($"Seu numero é: {tentativa}");
+// while (tentativa != numero)
+// {
+//     // Solicitar uma tentativa ao usuário
+//     Console.Write("Escreva um número: ");
+//     tentativa = Convert.ToInt32(Console.ReadLine());
 
-//Looping
-while (true)
-{
-if( !int.TryParse( Console.read(), out tentativa) ){
+//     // Verificar se a tentativa é menor, maior ou igual ao número secreto
+//     if (tentativa < numero)
+//     {
+//         Console.WriteLine("Seu número é menor que o número secreto!");
+//     }
+//     else if (tentativa > numero)
+//     {
+//         Console.WriteLine("Seu número é maior que o número secreto!");
+//     }
+//     else
+//     {
+//         Console.WriteLine($"Parabéns! Você adivinhou o número secreto: {numero}");
+//     }
+// }
 
-Console.WriteLine("O seu numero é invalido!");
-
-}if {
-    tentativa < numero
-    Console.WriteLine("Seu numero ainda é menor que o numero secreto!");
-}if{
-    tentativa > numero
-    Console.WriteLine("Seu numero é muito maior que o numero secreto!");
-}if {
-    tentativa == numero
-    Console.WriteLine($"Seu numero é igual ao numero secreto, Parabens!!{numero}");
-}
-
-
-}
-
-{
-    Console.WriteLine($"Seu numero é maior que o numero escondido... Tente novamente:");
-    int tentativa = Convert.ToInt32(Console.ReadLine());
-}
 
  
 
